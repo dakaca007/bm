@@ -70,7 +70,7 @@ export const MAX_TOKENS: Record<Model, number> = {
 
 export const TOKENS_STEP: Record<Model, number> = {
   [Model['gpt-3.5-turbo']]: 512,
-  [Model['gpt-3.5-turbo-16k']]: 512,
+  [Model['gpt-3.5-turbo-16k']]: 1000,
   [Model['gpt-4']]: 1000,
   [Model['gpt-4-0314']]: 1000,
   [Model['gpt-4-32k']]: 1000,
