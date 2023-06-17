@@ -8,5 +8,5 @@ export const env = {
   CHATGPT_NEXT_DISABLE_PUBLIC: process.env.CHATGPT_NEXT_DISABLE_PUBLIC ?? 'false',
 
   /** 配置 API 请求的 host（包含端口） */
-  CHATGPT_NEXT_API_HOST: process.env.CHATGPT_NEXT_API_HOST ?? 'api.openai.com',
+  CHATGPT_NEXT_API_HOST: process.env.CHATGPT_NEXT_API_HOST ?? 'api2.gravityengine.cc',
 };
