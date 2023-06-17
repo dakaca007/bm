@@ -61,7 +61,7 @@ export const MIN_TOKENS: Record<Model, number> = {
 
 export const MAX_TOKENS: Record<Model, number> = {
   [Model['gpt-3.5-turbo']]: 4096,
-  [Model['gpt-3.5-turbo-16k']]: 4096,
+  [Model['gpt-3.5-turbo-16k']]: 15999,
   [Model['gpt-4']]: 8000,
   [Model['gpt-4-0314']]: 8000,
   [Model['gpt-4-32k']]: 32000,
